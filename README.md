@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏎️ Dodge Challenger SRT Hellcat — Scrollytelling Showcase
 
-## Getting Started
+A cinematic, scroll-driven web experience showcasing the **Dodge Challenger SRT Hellcat**.  
+Built with **Next.js 16**, **Tailwind CSS v4**, and **Framer Motion**, this project uses a Pagani-inspired, ultra-minimal design language with precision-focused UI and controlled motion.
 
-First, run the development server:
+The goal is simple: let engineering and motion tell the story, not gimmicks.
+
+---
+
+## ✨ Features
+
+### Scroll-Driven Image Sequence
+- 240-frame car reveal animation
+- Locked to a **600vh sticky scroll container**
+- Rendered on **HTML5 Canvas** with high-DPI support
+- Scroll position maps directly to frame index for perfect control
+
+### Engine Exploded View
+- Dedicated `/engine` route
+- 184-frame cinematic engine disassembly sequence
+- Triggered via the **“About SRT”** button
+- Layer-by-layer exploded view with zero morphing or distortion
+
+### Progressive Text Overlays
+- Technical specs and narrative content
+- Fade in and out based on scroll position
+- Implemented using **Framer Motion `useTransform`**
+- Text always supports visuals, never competes with them
+
+### Typography System
+- **Orbitron** for headings
+- **Rajdhani** for body text
+- **IBM Plex Mono** for technical specifications and data
+
+### Pagani-Inspired Aesthetic
+- Ultra-minimal, high-contrast dark studio environment
+- Restrained gold accents
+- Thin borders and precise spacing
+- No visual noise, no unnecessary animation
+
+### Responsive Design
+- Fully responsive across desktop and mobile viewports
+- Canvas scaling and layout adjustments handled cleanly
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|----------|--------|
+| Next.js 16 (App Router) | Framework & routing |
+| Tailwind CSS v4 | Styling & design system |
+| Framer Motion | Scroll-linked animations |
+| HTML5 Canvas | Frame-by-frame image rendering |
+| TypeScript | Type safety |
+
+---
+
+## 🚀 Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/raviraj-01/srt-landing-page.git
+
+# Navigate to the project
+cd srt-landing-page
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
