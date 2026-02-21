@@ -5,6 +5,9 @@ Built with **Next.js 16**, **Tailwind CSS v4**, and **Framer Motion**, this proj
 
 The goal is simple: let engineering and motion tell the story, not gimmicks.
 
+
+### 🌐 My Published Website
+[Click here to view my site](https://srt-landing-page-one.vercel.app/).
 ---
 
 ## ✨ Features
